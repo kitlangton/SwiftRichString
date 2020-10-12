@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "SwiftRichString",
             targets: ["SwiftRichString"]),
+            platforms: [.macOS("11.0")],
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
